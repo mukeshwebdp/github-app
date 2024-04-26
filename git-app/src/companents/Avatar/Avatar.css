@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.avatar{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+}
+.photo{
+    width: 300px;
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+
+.photo > img{
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.2s linear;
+}
+.photo > img:hover{
+    transform: scale(1.05);
+}
+.name{
+    padding: 3px;
+    color: aliceblue;
+}
+.name span{
+    display: block;
+    margin-top: 5px;
+    font-size: 16px;
+}
